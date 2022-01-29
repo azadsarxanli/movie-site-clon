@@ -1,0 +1,21 @@
+.film-robotu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.film-robotu .film-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+}
+
+.film-robotu .option-buttons{
+    display: flex;
+    justify-content: space-around;
+
+
+}

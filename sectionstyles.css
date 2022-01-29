@@ -1,0 +1,129 @@
+* {
+  text-decoration: none !important;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  background: #363636;
+}
+
+body .slider {
+  background: #d3dee6;
+  padding: 1rem 2rem;
+  width: 70%;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 25px #000;
+          box-shadow: 1px 1px 25px #000;
+  position: relative;
+  margin: 5rem auto;
+}
+
+body .slider .slider-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0 1rem;
+  scroll-behavior: smooth;
+  padding: 1rem;
+  overflow-x: scroll;
+  position: relative;
+}
+
+body .slider .left-button,
+body .slider .right-button {
+  position: absolute;
+  z-index: 999;
+  border: none;
+  outline: none;
+  top: 50%;
+}
+
+body .slider .left-button {
+  left: 5px;
+}
+
+body .slider .right-button {
+  right: 5px;
+}
+
+body .films {
+  border: 1px solid #6c9ec2;
+  width: 70%;
+  background: #f3f8f9;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 25px;
+          box-shadow: 0px 0px 25px;
+  padding-top: 1rem;
+}
+
+body .films aside {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .films aside .general-post {
+  margin-top: 2rem;
+}
+
+body .films aside .general-post div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .films aside .general-post div h3 {
+  font-weight: 700;
+  margin-left: 2rem;
+  font-size: 14px;
+}
+
+body .films aside h1 {
+  background: -webkit-linear-gradient(top, #F2F5F9, #D6E6F0);
+  font: 700 14px arial;
+  padding: 10px 20px;
+  color: #475761;
+  width: 100%;
+  text-shadow: white 1px 1px;
+  background-color: #E0EBF3;
+  border: 1px solid #85c5f3;
+  border-radius: 5px 5px 0 0;
+}
+
+body .films div {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .films div ul li {
+  border-bottom: 1px solid blue;
+}
+
+body .films div ul li button {
+  border: 1px solid #c2c9d1;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), to(#D3DFE3));
+  background: linear-gradient(to bottom, #fff 0, #D3DFE3 100%);
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+body .films div ul li button:hover {
+  background: white;
+}
+
+body .films div ul li:last-child {
+  border-bottom: none;
+}
+/*# sourceMappingURL=sectionstyles.css.map */
