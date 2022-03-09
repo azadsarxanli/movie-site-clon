@@ -135,12 +135,12 @@ header {
         width: 250px;
         input {
           color: #86959e;
-          flex: 1;
-          background-color: transparent;
-          outline: 0;
-          border: none;
-          padding: 0.5rem 1rem;
-        }
+          flex: 1 !important;
+          background-color: transparent !important;
+          outline: 0 !important;
+          border: none !important;
+          padding: 0.5rem 1rem !important;
+          }
         svg {
           width: 20px;
           background-color: transparent;
